@@ -1,0 +1,21 @@
+{
+  "name": "Reviews",
+  "entryPointUriPath": "reviews",
+  "routePath": "/reviews",
+  "cloudIdentifier": "aws-us",
+  "mcApiUrl": "https://mc-api.us-east-2.aws.commercetools.com",
+  "oAuthScopes": {
+    "view": ["view_products"],
+    "manage": ["manage_products"]
+  },
+  "mainMenuLink": {
+    "defaultLabel": "Reviews",
+    "labelAllLocales": []
+  },
+  "env": {
+    "production": {
+      "applicationId": "cmudsqags000201xpymdzeijq",
+      "url": "https://reviews-custom-application.vercel.app"
+    }
+  }
+}
